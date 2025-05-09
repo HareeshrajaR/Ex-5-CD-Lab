@@ -56,13 +56,9 @@ void yyerror(const char *s) {
     printf("Invalid string\n");
 }
 ```
-compiled commands :
-```
-yacc -d yacc.y        
-lex lex.l             
-gcc -o parser y.tab.c lex.yy.c -ll
 
-```
+
+
 # OUTPUT
 ![Screenshot from 2025-05-09 18-06-27](https://github.com/user-attachments/assets/9d14c087-3146-40f4-bb3b-d1dd02351c13)
 
